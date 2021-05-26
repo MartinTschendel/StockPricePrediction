@@ -5,6 +5,7 @@ Make use of a recurrent neural network and multiple indicators to train differen
 * Lowest Mean Squared Error (mse) can be achieved with one indicator (open price), where the model is trained with data of a time from 2004 to 2016.
 * Highest accuracy can be achieved with one indicator (open price), where the model is trained with data of a time from 2012 to 2016.
 * Best overall performance (low mse and high accuracy) is realized by a RNN, that is trained with two indicators (open price & volume) with data of a time from 2012 to 2016.
+* 
 Inspired by udemy course “Deep Learning A-Z”
 
 | notebook                                           | h5                                     | training time frame | indicators                          | mse   | direction accuracy |
