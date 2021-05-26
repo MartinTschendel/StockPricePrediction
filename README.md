@@ -8,7 +8,7 @@ Make use of a recurrent neural network and multiple indicators to train differen
 * 
 Inspired by udemy course “Deep Learning A-Z”
 
-| notebook                                           | h5                                     | training time frame | indicators                          | mse   | direction accuracy |
+| notebook                                           | regressor (h5)                         | training time frame | indicators                          | mse   | direction accuracy |
 |----------------------------------------------------|----------------------------------------|---------------------|-------------------------------------|-------|--------------------|
 | 210430_BaseModel_OneInd_2012-2016                  | reg_google_2012-2016.h5                | 2012-2016           | open price                          | 0.015 | 0.75               |
 | 210429_BaseModel_OneInd_2004_2016                  | reg_google_2004-2016.h5                | 2004-2016           | open price                          | 0.014 | 0.6                |
